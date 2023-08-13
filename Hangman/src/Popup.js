@@ -4,9 +4,9 @@ const Popup = ({ status, word, reset }) => {
   return (
     <div className="popup">
       <p>You {status}!</p>
-      <p>The word was {word}</p>
+      <p>The word was {word}.</p>
       <button className="pulse" onClick={reset}>
-        Play again
+        Try again
       </button>
     </div>
   );
